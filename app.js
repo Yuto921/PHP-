@@ -14,6 +14,7 @@ $(function(){
             console.log($('#selects > div:first'));
             let setSelects = $('#selects > div:first').text(selectDate + 'th ' + selectMonth);
             $('#selects').css('display', 'flex');
+            console.log('できた！');
             
         });
     });
